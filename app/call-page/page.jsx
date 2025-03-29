@@ -96,7 +96,7 @@ const CallPageContent = () => {
 
   const initializeVapi = () => {
     try {
-      const vapiInstance = new Vapi("b2f456f6-29d3-40d3-8b96-f9142dc205e2"); // add vapi public key
+      const vapiInstance = new Vapi("67b304bb-8cc0-4f4a-91fd-ebd0538e00d8"); // add vapi public key
       setVapi(vapiInstance);
 
       // Add error event listener

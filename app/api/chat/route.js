@@ -17,7 +17,7 @@ export async function POST(req) {
 
     const completion = await groq.chat.completions.create({
       messages: formattedMessages,
-      model: "deepseek-r1-distill-llama-70b",
+      model: "qwen-2.5-32b",
       temperature: 0.6,
       max_tokens: 4096,
     });
